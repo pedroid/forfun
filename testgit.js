@@ -1,7 +1,7 @@
     require('simple-git')()
-         .init()
+    //     .init()
          .add('./*')
-         .commit("first commit!");
+         .commit("first commit!")
     //     .addRemote('origin', 'https://github.com/pedroid/forfun.git')
-     //    .push('origin', 'master');
+         .push('origin', 'master');
 
